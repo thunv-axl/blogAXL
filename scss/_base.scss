@@ -1,0 +1,52 @@
+@import "config";
+/*dhgajdada*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #f0f0f0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+i {
+  color: $grey;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+input,
+button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: $light;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}

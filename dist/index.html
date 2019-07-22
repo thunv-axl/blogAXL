@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Axalize Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font/font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- bbbbb -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__top">
+                    <h1 class="logo">
+                        <a href="#">
+                            Axalize Blog
+                        </a>
+                    </h1>
+                    <div class="header__top__right">
+                        <form action="">
+                            <div class="input__group">
+                                <input type="text" name="" id="" placeholder="Search" class="input__group__prepend">
+                                <button class="no-padding"><i
+                                        class="fas fa-search  fa-2x input__group__append"></i></button>
+                            </div>
+
+                        </form>
+                        <button class="sign__in">
+                            <span> Sign in w/ Google</span>
+                            <span class="svg"> <svg xmlns="https://www.w3.org/2000/svg" width="14px" height="14px"
+                                    viewbox="0 0 48 48" aria-hidden="true" class="LXVVDe">
+                                    <path fill="#4285F4"
+                                        d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z">
+                                    </path>
+                                    <path fill="#34A853"
+                                        d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z">
+                                    </path>
+                                    <path fill="#FBBC05"
+                                        d="M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z">
+                                    </path>
+                                    <path fill="#EA4335"
+                                        d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z">
+                                    </path>
+                                    <path fill="none" d="M2 2h44v44H2z"></path>
+                                </svg></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="jumpbotron">
+            <h2>Lorem ipsum dolor sit </h2>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="main-nav__container">
+
+                    <ul class="mobile-header-nav">
+                        <li><a href="">Timeline</a></li>
+                        <li><a href="">Project</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Privacy</a></li>
+                    </ul>
+                    <div class="humburger__wrapper">
+                        <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+                            <span class="menu-item"></span>
+                            <span class="menu-item"></span>
+                            <span class="menu-item"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script>
+        $('.js-toggle-menu').click(function (e) {
+            e.preventDefault();
+            $('.mobile-header-nav').slideToggle();
+            $(this).toggleClass('open');
+        });
+    </script>
+
+    <section class="content">
+        <div class="container">
+            <div class="content__container">
+                <div class="col-9 main__content">
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="avatar">
+                                <img src="https://fakeimg.pl/100x100/">
+                            </div>
+                            <div class="information">
+                                <div class="first__info">
+
+                                    <div class="post-time">
+                                        <p>about 1 minute ago</p>
+                                        <p class="vertical__line"> | </p>
+                                        <p>CATERGORY</p>
+                                    </div>
+                                    <div class="interaction">
+                                        <button>
+
+                                            <i class="far fa-eye">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-comments ">&nbsp;2</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-thumbs-up ">&nbsp;10</i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="second__info">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!</p>
+                                </div>
+                                <div class="third__info">
+                                    <div class="tag">
+                                        <a href="#">Tag 1</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 2</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="avatar">
+                                <img src="https://fakeimg.pl/100x100/">
+                            </div>
+                            <div class="information">
+                                <div class="first__info">
+
+                                    <div class="post-time">
+                                        <p>about 1 minute ago</p>
+                                        <p class="vertical__line"> | </p>
+                                        <p>CATERGORY</p>
+                                    </div>
+                                    <div class="interaction">
+                                        <button>
+
+                                            <i class="far fa-eye">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-comments">&nbsp;2</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-thumbs-up">&nbsp;10</i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="second__info">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!</p>
+                                </div>
+                                <div class="third__info">
+                                    <div class="tag">
+                                        <a href="#">Tag 1</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 2</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="avatar">
+                                <img src="https://fakeimg.pl/100x100/">
+                            </div>
+                            <div class="information">
+                                <div class="first__info">
+
+                                    <div class="post-time">
+                                        <p>about 1 minute ago</p>
+                                        <p class="vertical__line"> | </p>
+                                        <p>CATERGORY</p>
+                                    </div>
+                                    <div class="interaction">
+                                        <button>
+
+                                            <i class="far fa-eye">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-comments">&nbsp;2</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-thumbs-up">&nbsp;10</i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="second__info">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!</p>
+                                </div>
+                                <div class="third__info">
+                                    <div class="tag">
+                                        <a href="#">Tag 1</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 2</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="avatar">
+                                <img src="https://fakeimg.pl/100x100/">
+                            </div>
+                            <div class="information">
+                                <div class="first__info">
+
+                                    <div class="post-time">
+                                        <p>about 1 minute ago</p>
+                                        <p class="vertical__line"> | </p>
+                                        <p>CATERGORY</p>
+                                    </div>
+                                    <div class="interaction">
+                                        <button>
+                                            <i class="far fa-eye">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-comments">&nbsp;2</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="far fa-thumbs-up">&nbsp;10</i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="second__info">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!</p>
+                                </div>
+                                <div class="third__info">
+                                    <div class="tag">
+                                        <a href="#">Tag 1</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 2</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="avatar">
+                                <img src="https://fakeimg.pl/100x100/">
+                            </div>
+                            <div class="information">
+                                <div class="first__info">
+
+                                    <div class="post-time">
+                                        <p>about 1 minute ago</p>
+                                        <p class="vertical__line"> | </p>
+                                        <p>CATERGORY</p>
+                                    </div>
+                                    <div class="interaction">
+                                        <button>
+                                            <i class="far fa-eye">&nbsp;10</i>
+                                        </button>
+                                        <button>
+                                            <i class="far fa-comments">&nbsp;2</i>
+                                        </button>
+                                        <button href="#">
+                                            <i class="far fa-thumbs-up">&nbsp;10</i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="second__info">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quas!</p>
+                                </div>
+                                <div class="third__info">
+                                    <div class="tag">
+                                        <a href="#">Tag 1</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 2</a>
+                                    </div>
+                                    <div class="tag">
+                                        <a href="">Tag 3</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="load__more">
+                        <button class="more">
+                            More Post &nbsp; <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-3 side__content">
+                    <div class="side__content__container">
+                        <h3>Top Author</h3>
+                        <div class="author">
+                            <div class="author__inner">
+                                <div class="avatar">
+                                    <img src="https://fakeimg.pl/70x70/">
+                                </div>
+                                <div class="author__info">
+                                    <p class="author__name">Nozomi Sasaki <br>
+                                        <button>
+
+                                            <i class="far fa-address-card">&nbsp;10</i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-user-plus">&nbsp;6</i>
+                                        </button>
+
+                                    </p>
+                                    <button class="follow">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="author__inner">
+                                <div class="avatar">
+                                    <img src="https://fakeimg.pl/70x70/">
+                                </div>
+                                <div class="author__info">
+                                    <p class="author__name">Nozomi Sasaki <br>
+                                        <button>
+                                            <i class="far fa-address-card">&nbsp;10</i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-user-plus">&nbsp;6</i>
+                                        </button>
+
+                                    </p>
+                                    <button class="follow">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="author__inner">
+                                <div class="avatar">
+                                    <img src="https://fakeimg.pl/70x70/">
+                                </div>
+                                <div class="author__info">
+                                    <p class="author__name">Nozomi Sasaki <br>
+                                        <button>
+
+                                            <i class="far fa-address-card">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="fas fa-user-plus">&nbsp;6</i>
+                                        </button>
+
+                                    </p>
+                                    <button class="follow">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="author__inner">
+                                <div class="avatar">
+                                    <img src="https://fakeimg.pl/70x70/">
+                                </div>
+                                <div class="author__info">
+                                    <p class="author__name">Nozomi Sasaki <br>
+                                        <button>
+
+                                            <i class="far fa-address-card">&nbsp;10</i>
+                                        </button>
+                                        <button>
+
+                                            <i class="fas fa-user-plus">&nbsp;6</i>
+                                        </button>
+
+                                    </p>
+                                    <button class="follow">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="author">
+                            <div class="author__inner last">
+                                <div class="avatar">
+                                    <img src="https://fakeimg.pl/70x70/">
+                                </div>
+                                <div class="author__info">
+                                    <p class="author__name">Nozomi Sasaki <br>
+                                        <button>
+
+                                            <i class="far fa-address-card">&nbsp;10</i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-user-plus">&nbsp;6</i>
+                                        </button>
+                                    </p>
+                                    <button class="follow">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group__tag">
+                        <div class="group__tag__inner">
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                            <div class="tag"> <a href="">Lorem</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__inner">
+                    <div class="block">
+                        <ul>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <ul>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <ul>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                            <li><a href="">lorem</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

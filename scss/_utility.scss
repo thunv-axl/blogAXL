@@ -1,0 +1,60 @@
+@import "config";
+
+.container {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+.vertical__line {
+  padding: 0 10px;
+}
+
+.tag {
+  padding: 5px 10px;
+  color: $light;
+  background-color: $secondary-color;
+  margin-right: 10px;
+  border-radius: 5px;
+  &:hover {
+    opacity: 0.7;
+  }
+  a {
+    color: $light;
+  }
+}
+
+.follow {
+  border: 2px solid $main-color;
+  color: $main-color;
+  font-size: 14px;
+  padding: 6px 16px;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.more {
+  border: none;
+  background: $main-color;
+  color: $light;
+  padding: 10px 20px;
+  font-size: 14px;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.no-padding {
+  padding: 0;
+  border: none;
+}
+.fa-eye,
+.fa-comments,
+.fa-thumbs-up,
+.fa-user-plus,
+.fa-address-card {
+  color: $grey;
+  &:hover {
+    color: $dark;
+  }
+}
+.fa-arrow-right {
+  color: $light;
+}

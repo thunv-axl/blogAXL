@@ -1,0 +1,118 @@
+@import "config";
+
+.header {
+  &__container {
+    margin: 0 40px;
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    &__right {
+      display: flex;
+    }
+  }
+}
+.input__group {
+  display: flex;
+  margin-right: 16px;
+  &__prepend {
+    border: 1px solid $grey;
+    font-size: 1rem;
+  }
+  &__append {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background: $secondary-color;
+    outline: none;
+    color: #fff;
+  }
+}
+.sign__in {
+  border: 1px solid $main-color;
+  color: $main-color;
+  display: flex;
+  span {
+    display: flex;
+    align-items: center;
+  }
+  .svg {
+    margin-left: 5px;
+  }
+}
+.jumpbotron {
+  width: 100%;
+  background: $grey;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-nav {
+  background-color: $main-color;
+  &__container {
+    margin: 0 40px;
+    max-width: $max-width;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    li {
+      a {
+        display: block;
+        color: $light;
+        padding: 24px 16px;
+        font-size: 1.6rem;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+.hamburger-menu {
+  display: none;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu .menu-item {
+  background: $light;
+  display: block;
+  height: 3px;
+  margin: 0 0 10px;
+  transition: all 0.3s ease-in-out;
+  width: 40px;
+}
+.hamburger-menu.open {
+  padding-top: 20px;
+}
+
+.hamburger-menu.open .menu-item {
+  margin: 0 0 5px;
+}
+
+.hamburger-menu.open .menu-item:first-child {
+  transform: rotate(45deg);
+  transform-origin: 10px;
+}
+
+.hamburger-menu.open .menu-item:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.open .menu-item:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 8px;
+}
